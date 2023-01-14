@@ -1,0 +1,64 @@
+<html>
+<head>
+<body>
+<script>
+	function add()
+	{
+	var v=parseInt(document.getElementById("n1").value);
+	var v2=parseInt(document.getElementById("n2").value);
+	var res=v+v2;
+	var v1=document.getElementById("rs").value=res;
+	//document.write(v1);
+	}
+	function sub()
+	{
+	var v=parseInt(document.getElementById("n1").value);
+	var v2=parseInt(document.getElementById("n2").value);
+	var res=v-v2;
+	var v1=document.getElementById("rs").value=res;
+	//document.write(v1);
+	}
+	function multi()
+	{
+	var v=parseInt(document.getElementById("n1").value);
+	var v2=parseInt(document.getElementById("n2").value);
+	var res=v*v2;
+	var v1=document.getElementById("rs").value=res;
+	//document.write(v1);
+	}
+	function div()
+	{
+	var v=parseInt(document.getElementById("n1").value);
+	var v2=parseInt(document.getElementById("n2").value);
+	var res=v/v2;
+	var v1=document.getElementById("rs").value=res;
+	//document.write(v1);
+	}
+</script>
+<form>
+	<table align="center" border=1 style="background-color:pink;">
+		<tr>
+		<td>enter number 1</td>
+		<td colspan=3><input type="text" id="n1" /></td>
+		</tr>
+		<tr>
+		<td>enter number 2</td>
+		<td colspan=3><input type="text" id="n2" /></td>
+		</tr>
+		<tr>
+		<td>res</td>
+		<td colspan=3><input type="text" id="rs" /></td>
+		</tr>
+		<br>
+		<tr>
+		<td><button type="button"onclick="add()">add</button></td>
+		<td><button type="button"onclick="sub()">sub</button></td>
+		<td><button type="button"onclick="multi()">multi</button></td>
+		<td><button type="button"onclick="div()">div</button></td>
+		</tr>
+</table>
+</form>
+</script>
+</body>
+</head>
+</html>
