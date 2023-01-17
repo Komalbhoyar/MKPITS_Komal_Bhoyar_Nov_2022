@@ -1,10 +1,20 @@
- class triangle
- {
- public static void main(String[] args)
- {
- int base=3,height=5;
- double c=0.5*base*height;
- System.out.println("enter the value base,height");
- System.out.println("area of triangle="+c);
- }
+class Tri
+{
+int i,sum=0;
+void set()
+{
+for(i=1;i<=30;i++)
+{
+sum=sum+i;
+System.out.println(sum);
+}
+}
+}
+class triangle
+{
+public static void main(String[] args)
+{
+Tri ob1=new Tri();
+ob1.set();
+}
 }
