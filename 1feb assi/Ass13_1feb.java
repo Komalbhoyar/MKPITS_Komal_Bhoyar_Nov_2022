@@ -1,4 +1,10 @@
 import java.util.Scanner;
+//WAP  to find the eligibility of admission for a professional course based on the following criteria
+//marks in maths>=65
+//marks in phy >=55
+//marks in chem >=50
+//total in all subject >=180
+//or total in mathand subject>=140
 
 class Ass13_1feb
 {
